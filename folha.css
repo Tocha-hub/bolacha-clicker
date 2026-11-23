@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto auto;
+    padding: 200px 20px;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.botp {
+    height: 350px;
+    width: 350px;
+    font-size: 40pt;
+    text-transform: uppercase;
+}
+
+#loja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.produto {
+    padding: 30px;
+    text-align: center;
+}
+
+.produto button {
+    height: 70px;
+    width: 200px;
+}
+
+
+
+

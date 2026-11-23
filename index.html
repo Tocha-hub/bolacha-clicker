@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="folha.css">
+
+<style>
+    .pulsar{
+    animation: pulsar 0.3s linear;
+}
+
+@keyframes pulsar{
+    from {transform: scale(1);}
+    50% {transform: scale(2);}
+    to {transform: scale(1);}
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+
+<div class="caixa">
+    <p>Um Contador</p>
+    <p id="input"> ... </p>
+    <div>
+        <img src="bolacha.png" type="button" onclick="ch()" class="botp"></img>
+    </div>
+</div>
+
+<div id="loja">
+
+    <div class="produto">
+        <p>Clicador de redstone</p>
+        <button type="button" onclick="red()" class="bot">comprar</button>
+    </div>
+    <div class="produto">
+        <p>Potencializador de clique</p>
+        <button type="button" onclick="pot()" class="bot">comprar</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>
